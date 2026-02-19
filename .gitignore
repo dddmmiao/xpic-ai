@@ -1,0 +1,50 @@
+# ===== 敏感信息 =====
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.secret
+
+# ===== 依赖 =====
+node_modules/
+backend/__pycache__/
+backend/*.pyc
+
+# ===== 构建产物 =====
+dist/
+dist-ssr/
+coverage/
+
+# ===== 日志 =====
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+
+# ===== 编辑器/IDE =====
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===== 模型缓存 =====
+backend/models/
+*.pt
+*.bin
+*.safetensors
+
+# ===== 临时文件 =====
+*.local
+*.tsbuildinfo
+.eslintcache
+*.timestamp-*-*.mjs
